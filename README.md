@@ -2,4 +2,4 @@
 ip logger termux
 
 telegram channel:
-t.me/MR_MAMAD_TM
+https://t.me/MR_MAMAD_TM
