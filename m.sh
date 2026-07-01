@@ -192,7 +192,7 @@ log.setLevel(logging.ERROR)
 
 app = Flask(__name__)
 
-ASCII_ART = ""
+ASCII_ART = """
 █▄░▄█ █▀▀▄
 █░█░█ █▐█▀
 ▀░░░▀ ▀░▀▀
@@ -202,12 +202,12 @@ ASCII_ART = ""
 ▀█▀ █▄░▄█
 ░█░ █░█░█
 ░▀░ ▀░░░▀
-""
+"""
 
-CHANNEL_LINKS = ""
+CHANNEL_LINKS = """
 📱 Telegram: https://t.me/mr_mamad_tm
 ▶️ YouTube: https://youtube.com/@mr_mamad_tm
-""
+"""
 
 def get_location(ip):
     try:
